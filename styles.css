@@ -1,0 +1,65 @@
+
+body {
+    background-color: #f7f7f5;
+    color: #111111;
+    font-family: "Source Serif 4", serif;
+    max-width: 700px;
+    margin: 60px auto;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 0.08em;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 36px;
+    font-size: 21px;
+    letter-spacing: 0.04em;
+    color: #444;
+}
+
+img {
+    display: block;
+    margin: 40px auto;
+    max-width: 100%;
+}
+
+.cast {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 0.95em;
+}
+
+.cast-title {
+    letter-spacing: 0.1em;
+    margin-bottom: 10px;
+}
+
+.speaker {
+    margin-top: 24px;
+    letter-spacing: 0.05em;
+}
+
+.stage {
+    font-style: italic;
+    color: #444;
+    margin: 10px 0;
+}
+
+.signature {
+    margin-top: 64px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    font-size: 0.9em;
+}
+
+.signature a {
+    text-decoration: none;
+    color: #111111;
+}
