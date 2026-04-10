@@ -25,11 +25,12 @@ h1 {
 
 .subtitle {
     text-align: center;
-    font-size: 18px;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
-    margin: 0 0 56px 0;
-    color: #a4676c;
+    font-size: 28px;         /* ↑ clear presence */
+    letter-spacing: 0.04em;  /* ↓ tighter, more natural */
+    text-transform: none;    /* ← crucial */
+    margin: 0 0 46px 0;
+    color: #333333;          /* charcoal */
+    font-weight: 400;
 }
 
 /* Cast */
