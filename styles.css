@@ -1,98 +1,100 @@
 body {
-    background-color: #f7f7f5;
-    color: #111111;
+    background-color: #f6f5f3;
+    color: #111;
     font-family: "Source Serif 4", Georgia, serif;
-    max-width: 700px;
-    margin: 60px auto;
-    line-height: 1.68;
-    padding: 0 20px;
+    max-width: 720px;
+    margin: 80px auto;
+    line-height: 1.72;
+    padding: 0 22px;
 }
 
 /* Title */
 
 h1 {
     text-align: center;
-    font-size: 44px;
+    font-size: 52px;
     font-weight: 600;
-    letter-spacing: 0.09em;
-    margin-bottom: 12px;
-    color: #3a1f24;
+    letter-spacing: 0.12em;
+    margin-bottom: 18px;
+    margin-top: 10px;
+    color: #7a0f14; /* blood red */
 }
 
 /* Subtitle */
 
 .subtitle {
     text-align: center;
-    font-size: 22px;
-    margin-bottom: 28px;
-    letter-spacing: 0.04em;
-    color: #704349;
+    font-size: 20px;
+    margin-bottom: 40px;
+    letter-spacing: 0.08em;
+    color: #9c5a5f;
 }
 
 /* Cast */
 
 .cast {
     text-align: center;
-    margin-bottom: 34px;
-    font-size: 0.97em;
-    color: #7a565b;
+    margin-bottom: 46px;
+    font-size: 0.95em;
+    color: #6e4a4e;
 }
 
 .cast-title {
-    letter-spacing: 0.12em;
-    margin-bottom: 10px;
-    color: #4d2a2f;
+    letter-spacing: 0.18em;
+    margin-bottom: 14px;
+    font-size: 0.85em;
+    color: #7a0f14;
 }
 
 /* Image */
 
 img {
     display: block;
-    margin: 0 auto 42px auto;
+    margin: 0 auto 50px auto;
     max-width: 100%;
 }
 
 /* Play */
 
 .play {
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 /* Speakers */
 
 .speaker {
-    margin-top: 28px;
-    font-size: 0.9em;
-    letter-spacing: 0.07em;
+    margin-top: 34px;
+    font-size: 0.88em;
+    letter-spacing: 0.12em;
     font-weight: 600;
-    color: #5a3734;
+    color: #7a0f14;
 }
 
 /* Dialogue */
 
 .line {
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
-/* Stage */
+/* Stage directions */
 
 .stage {
     font-style: italic;
-    color: #7f7f7f;
-    margin: 10px 0;
+    color: #8a8a8a;
+    margin: 14px 0;
 }
 
 /* Signature */
 
 .signature {
-    margin-top: 76px;
+    margin-top: 90px;
     text-align: center;
-    letter-spacing: 0.2em;
-    font-size: 0.9em;
+    letter-spacing: 0.22em;
+    font-size: 0.85em;
 }
 
 .signature a {
-    color: #5a3734;
+    color: #7a0f14;
     text-decoration: none;
 }
 
