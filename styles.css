@@ -4,7 +4,7 @@ body {
     font-family: "Source Serif 4", Georgia, serif;
     max-width: 760px;
     margin: 0 auto;
-    line-height: 1.76;
+    line-height: 1.72;
     padding: 90px 28px 70px 28px;
 }
 
@@ -13,10 +13,10 @@ body {
 h1 {
     text-align: center;
     font-size: 66px;
-    line-height: 1.02;
+    line-height: 0.94;
     font-weight: 700;
-    letter-spacing: 0.16em;
-    margin: 0 0 26px 0;
+    letter-spacing: 0.14em;
+    margin: 0 0 18px 0;
     color: #8e1116;
     text-transform: uppercase;
 }
@@ -25,29 +25,30 @@ h1 {
 
 .subtitle {
     text-align: center;
-    font-size: 28px;         /* ↑ clear presence */
-    letter-spacing: 0.04em;  /* ↓ tighter, more natural */
-    text-transform: none;    /* ← crucial */
-    margin: 0 0 46px 0;
-    color: #333333;          /* charcoal */
-    font-weight: 400;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    margin: 0 0 44px 0;
+    color: #333333;
 }
 
 /* Cast */
 
 .cast {
     text-align: center;
-    margin: 0 0 60px 0;
+    margin: 0 0 56px 0;
     font-size: 0.98em;
     color: #6d4d50;
 }
 
 .cast-title {
-    font-size: 0.78em;
-    letter-spacing: 0.22em;
+    font-size: 0.9em;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    margin: 0 0 16px 0;
-    color: #8e1116;
+    margin: 0 0 14px 0;
+    color: #7a1f24;
+    font-weight: 600;
 }
 
 .cast div:not(.cast-title) {
@@ -58,7 +59,7 @@ h1 {
 
 img {
     display: block;
-    margin: 0 auto 62px auto;
+    margin: 0 auto 56px auto;
     max-width: 100%;
     height: auto;
 }
@@ -72,10 +73,10 @@ img {
 /* Speakers */
 
 .speaker {
-    margin-top: 38px;
+    margin-top: 34px;
     margin-bottom: 2px;
     font-size: 0.84em;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.12em;
     font-weight: 700;
     color: #8e1116;
     text-transform: uppercase;
@@ -91,16 +92,16 @@ img {
 
 .stage {
     font-style: italic;
-    color: #8b8b8b;
-    margin: 13px 0;
+    color: #8a8a8a;
+    margin: 12px 0;
 }
 
 /* Signature */
 
 .signature {
-    margin-top: 110px;
+    margin-top: 100px;
     text-align: center;
-    letter-spacing: 0.24em;
+    letter-spacing: 0.22em;
     font-size: 0.82em;
     text-transform: lowercase;
 }
@@ -112,4 +113,45 @@ img {
 
 .signature a:hover {
     text-decoration: underline;
+}
+
+/* Mobile */
+
+@media (max-width: 640px) {
+    body {
+        padding: 60px 22px 50px 22px;
+    }
+
+    h1 {
+        font-size: 42px;
+        line-height: 0.98;
+        letter-spacing: 0.10em;
+        margin: 0 0 16px 0;
+    }
+
+    .subtitle {
+        font-size: 24px;
+        margin: 0 0 34px 0;
+    }
+
+    .cast {
+        margin: 0 0 42px 0;
+    }
+
+    .cast-title {
+        font-size: 0.84em;
+        margin-bottom: 12px;
+    }
+
+    img {
+        margin: 0 auto 44px auto;
+    }
+
+    .speaker {
+        margin-top: 28px;
+    }
+
+    .signature {
+        margin-top: 72px;
+    }
 }
