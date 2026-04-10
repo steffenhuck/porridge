@@ -1,12 +1,10 @@
-/* Base layout */
-
 body {
     background-color: #f7f7f5;
     color: #111111;
     font-family: "Source Serif 4", Georgia, serif;
     max-width: 700px;
     margin: 60px auto;
-    line-height: 1.65;
+    line-height: 1.68;
     padding: 0 20px;
 }
 
@@ -14,95 +12,88 @@ body {
 
 h1 {
     text-align: center;
-    letter-spacing: 0.08em;
+    font-size: 44px;
     font-weight: 600;
-    font-size: 36px;
-    margin-bottom: 14px;
-    color: #3a1f24;   /* ← noticeable dark burgundy */
+    letter-spacing: 0.09em;
+    margin-bottom: 12px;
+    color: #3a1f24;
 }
 
 /* Subtitle */
 
 .subtitle {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 36px;
-    font-size: 21px;
+    font-size: 22px;
+    margin-bottom: 28px;
     letter-spacing: 0.04em;
-    color: #5a3a3f;   /* ← lighter version of title color */
-}
-
-/* Image */
-
-img {
-    display: block;
-    margin: 40px auto;
-    max-width: 100%;
-    height: auto;
+    color: #704349;
 }
 
 /* Cast */
 
 .cast {
     text-align: center;
-    margin-bottom: 32px;
-    font-size: 0.95em;
+    margin-bottom: 34px;
+    font-size: 0.97em;
+    color: #7a565b;
 }
 
 .cast-title {
-    letter-spacing: 0.1em;
-    margin-bottom: 12px;
-    font-size: 0.9em;
-    color: #3a1f24;   /* ← same tone as title */
+    letter-spacing: 0.12em;
+    margin-bottom: 10px;
+    color: #4d2a2f;
 }
 
-.cast div {
-    margin: 3px 0;
+/* Image */
+
+img {
+    display: block;
+    margin: 0 auto 42px auto;
+    max-width: 100%;
 }
 
-/* Play text */
+/* Play */
 
 .play {
-    margin-top: 20px;
+    margin-top: 4px;
 }
 
-/* Speaker names */
+/* Speakers */
 
 .speaker {
-    margin-top: 26px;
-    letter-spacing: 0.08em;
+    margin-top: 28px;
     font-size: 0.9em;
+    letter-spacing: 0.07em;
     font-weight: 600;
-    color: #3a1f24;   /* ← clearly colored */
+    color: #5a3734;
 }
 
-/* Dialogue lines */
+/* Dialogue */
 
 .line {
     margin-top: 6px;
-    color: #111111;
 }
 
-/* Stage directions */
+/* Stage */
 
 .stage {
     font-style: italic;
-    color: #888888;   /* ← slightly lighter than before */
+    color: #7f7f7f;
     margin: 10px 0;
 }
 
 /* Signature */
 
 .signature {
-    margin-top: 72px;
+    margin-top: 76px;
     text-align: center;
     letter-spacing: 0.2em;
     font-size: 0.9em;
 }
 
 .signature a {
+    color: #5a3734;
     text-decoration: none;
-    color: #3a1f24;   /* ← same accent color */
 }
 
 .signature a:hover {
